@@ -11,9 +11,9 @@ import java.util.Objects;
 @Table(name = "users")
 public class User {
     private @Id @GeneratedValue long id;
-    private @NotBlank String username;
-    private @NotBlank String password;
-    private @NotBlank boolean loggedIn;
+    private  String username;
+    private  String password;
+    private  boolean loggedIn;
 
     public User() {
     }
